@@ -13,6 +13,8 @@
 		11537FB429D0CAE6007A30AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11537FB229D0CAE6007A30AB /* Main.storyboard */; };
 		11537FB629D0CAE8007A30AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11537FB529D0CAE8007A30AB /* Assets.xcassets */; };
 		11537FB929D0CAE8007A30AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11537FB729D0CAE8007A30AB /* LaunchScreen.storyboard */; };
+		11CA33B729D0EE5B00448061 /* ButtonsAndLabelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11CA33B629D0EE5B00448061 /* ButtonsAndLabelVC.swift */; };
+		11CA33B929D1E4B800448061 /* TrafficLightsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11CA33B829D1E4B800448061 /* TrafficLightsVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		11537FB529D0CAE8007A30AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		11537FB829D0CAE8007A30AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		11537FBA29D0CAE8007A30AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11CA33B629D0EE5B00448061 /* ButtonsAndLabelVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonsAndLabelVC.swift; sourceTree = "<group>"; };
+		11CA33B829D1E4B800448061 /* TrafficLightsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrafficLightsVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				11537FAC29D0CAE6007A30AB /* AppDelegate.swift */,
 				11537FAE29D0CAE6007A30AB /* SceneDelegate.swift */,
 				11537FB029D0CAE6007A30AB /* ViewController.swift */,
+				11CA33B629D0EE5B00448061 /* ButtonsAndLabelVC.swift */,
+				11CA33B829D1E4B800448061 /* TrafficLightsVC.swift */,
 				11537FB229D0CAE6007A30AB /* Main.storyboard */,
 				11537FB529D0CAE8007A30AB /* Assets.xcassets */,
 				11537FB729D0CAE8007A30AB /* LaunchScreen.storyboard */,
@@ -138,7 +144,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11CA33B929D1E4B800448061 /* TrafficLightsVC.swift in Sources */,
 				11537FB129D0CAE6007A30AB /* ViewController.swift in Sources */,
+				11CA33B729D0EE5B00448061 /* ButtonsAndLabelVC.swift in Sources */,
 				11537FAD29D0CAE6007A30AB /* AppDelegate.swift in Sources */,
 				11537FAF29D0CAE6007A30AB /* SceneDelegate.swift in Sources */,
 			);
