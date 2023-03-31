@@ -20,7 +20,10 @@ class ViewController: UIViewController {
       
     
     }
-
+    
+    @IBAction func unwindToMain(for unwindSegue: UIStoryboardSegue) {
+        dismiss(animated: true)
+    }
 
 }
 
