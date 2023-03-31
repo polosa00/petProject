@@ -15,6 +15,10 @@
 		11537FB929D0CAE8007A30AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11537FB729D0CAE8007A30AB /* LaunchScreen.storyboard */; };
 		11CA33B729D0EE5B00448061 /* ButtonsAndLabelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11CA33B629D0EE5B00448061 /* ButtonsAndLabelVC.swift */; };
 		11CA33B929D1E4B800448061 /* TrafficLightsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11CA33B829D1E4B800448061 /* TrafficLightsVC.swift */; };
+		11CA33BB29D450A100448061 /* UISegmentedControlVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11CA33BA29D450A100448061 /* UISegmentedControlVC.swift */; };
+		11CA33DF29D76D0E00448061 /* ColorizedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11CA33DE29D76D0E00448061 /* ColorizedViewController.swift */; };
+		11CA33E129D7767100448061 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11CA33E029D7767100448061 /* LoginViewController.swift */; };
+		11CA33E329D7768400448061 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11CA33E229D7768400448061 /* WelcomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +32,10 @@
 		11537FBA29D0CAE8007A30AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		11CA33B629D0EE5B00448061 /* ButtonsAndLabelVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonsAndLabelVC.swift; sourceTree = "<group>"; };
 		11CA33B829D1E4B800448061 /* TrafficLightsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrafficLightsVC.swift; sourceTree = "<group>"; };
+		11CA33BA29D450A100448061 /* UISegmentedControlVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UISegmentedControlVC.swift; sourceTree = "<group>"; };
+		11CA33DE29D76D0E00448061 /* ColorizedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorizedViewController.swift; sourceTree = "<group>"; };
+		11CA33E029D7767100448061 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		11CA33E229D7768400448061 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,8 +71,12 @@
 				11537FAC29D0CAE6007A30AB /* AppDelegate.swift */,
 				11537FAE29D0CAE6007A30AB /* SceneDelegate.swift */,
 				11537FB029D0CAE6007A30AB /* ViewController.swift */,
+				11CA33DE29D76D0E00448061 /* ColorizedViewController.swift */,
 				11CA33B629D0EE5B00448061 /* ButtonsAndLabelVC.swift */,
 				11CA33B829D1E4B800448061 /* TrafficLightsVC.swift */,
+				11CA33E029D7767100448061 /* LoginViewController.swift */,
+				11CA33E229D7768400448061 /* WelcomeViewController.swift */,
+				11CA33BA29D450A100448061 /* UISegmentedControlVC.swift */,
 				11537FB229D0CAE6007A30AB /* Main.storyboard */,
 				11537FB529D0CAE8007A30AB /* Assets.xcassets */,
 				11537FB729D0CAE8007A30AB /* LaunchScreen.storyboard */,
@@ -144,9 +156,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11CA33E329D7768400448061 /* WelcomeViewController.swift in Sources */,
 				11CA33B929D1E4B800448061 /* TrafficLightsVC.swift in Sources */,
 				11537FB129D0CAE6007A30AB /* ViewController.swift in Sources */,
+				11CA33DF29D76D0E00448061 /* ColorizedViewController.swift in Sources */,
 				11CA33B729D0EE5B00448061 /* ButtonsAndLabelVC.swift in Sources */,
+				11CA33E129D7767100448061 /* LoginViewController.swift in Sources */,
+				11CA33BB29D450A100448061 /* UISegmentedControlVC.swift in Sources */,
 				11537FAD29D0CAE6007A30AB /* AppDelegate.swift in Sources */,
 				11537FAF29D0CAE6007A30AB /* SceneDelegate.swift in Sources */,
 			);
@@ -303,6 +319,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -334,6 +351,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
